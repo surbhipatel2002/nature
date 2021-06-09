@@ -51,6 +51,14 @@
 .chess-img{
     height: 100px;
 }
+.black-font{
+    color: black;
+}
+.black-p{
+    color: black;
+    font-weight: 600;
+    font-size: 21px;
+}
 
 .round-images{
     height: 100px;
