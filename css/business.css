@@ -66,6 +66,14 @@
    margin-top: 30px;
    margin-bottom: 40px;
    margin-left: auto;
+   margin-right: 0px;
+}
+@media only screen and (max-width: 768px) {
+    .round-imaes{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;  
+   }
 }
 .email:focus{
     background-color:  #43ca83; 
@@ -80,17 +88,18 @@
 .jon-deo{
     font-weight: bold;
     margin-top: 30px;
+    margin-left: 55px;  
 }
-
-
+.jon-deo-paragraph{
+    margin-left: 55px;
+    margin-right: 10px;
+}
 .row-color{
     background-color:#43ca83;
     display: flex;
     justify-content: center;
     padding: 20px;
 }
-
-
 .email{
     background-color:#43ca83;
     border-color: white !important;
@@ -105,8 +114,6 @@
 .btn-light{ 
     color:#43ca83 ;
 }
-
-
 .footer{
     background-color:#292929;
     color: white;
@@ -131,15 +138,24 @@
 .image-center{
     text-align: center;
     margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .about-company{
     margin-top: 30px;
-    margin-left: 40px;
-   
+    margin-left: 40px;  
+    margin-right: 20px;
+}
+  /* Tablate/Ipade Device */
+  @media only screen and (max-width: 768px) {
+    .about-company, .jon-deo {
+     margin-left: 0px;
+     text-align: center; 
+     margin-right: 10px; 
+    }
 }
 .heading{
     font-weight: bold;
-   
 }
 
 /* .carousel-control-prev:before {
@@ -162,7 +178,7 @@
     justify-content: center;
     align-items: center;
     padding-left: 75px;
-    padding-right: 75px;
+    padding-right: 36px;
   }
   .rounded-circle{
     width: auto;
@@ -178,5 +194,6 @@
         flex-direction: column;
         padding-top: 20px;
         padding-left: 20px;
+        padding-right: 20px;
     }
 }
