@@ -1,0 +1,174 @@
+.business-logo{
+    height: 60px;
+}
+.nav-item .nav-link {
+    color: black !important;
+}   
+.bg-light{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@media only screen and (max-width: 992px) {
+    .bg-light {
+        padding-left: 10px;
+    padding-right: 10px;
+    }
+}
+
+.first_section {
+    background-image: url('../images/ways-to-make-small-business-green.jpg');
+    text-align: center;
+    padding: 11%;
+    background-size: 100% 100%;
+}
+.black-botton{
+    color:black ;
+    font-weight: bold;
+    background-color: white;
+
+}
+.background-color{
+    background-color: hsl(0, 0%, 90%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
+.about-us{
+    padding-left: 30px;
+}
+@media only screen and (max-width: 576px) {
+    .about-us {
+     text-align: center;
+    }
+}
+.chess{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chess-img{
+    height: 100px;
+}
+
+.round-images{
+    height: 100px;
+   border-radius: 50px;
+   margin-top: 30px;
+   margin-bottom: 40px;
+   margin-left: auto;
+}
+.email:focus{
+    background-color:  #43ca83; 
+        /* oranges! yey */
+     box-shadow: none;
+}
+
+.carousel-inner{
+    padding-bottom: 20px;
+    
+}
+.jon-deo{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.row-color{
+    background-color:#43ca83;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.email{
+    background-color:#43ca83;
+    border-color: white !important;
+    border-radius: 10px;
+    box-shadow: none;
+    color: white !important;
+}
+.form-email{
+    width: 50%;
+    margin-right: 20px;
+}
+.btn-light{ 
+    color:#43ca83 ;
+}
+
+
+.footer{
+    background-color:#292929;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-p{
+    margin-bottom: 0px;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.image-text{
+    font-weight: bold;
+}
+.our-product{
+    text-align: center;
+    margin-top: 20px;
+}
+.image-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-company{
+    margin-top: 30px;
+    margin-left: 40px;
+   
+}
+.heading{
+    font-weight: bold;
+   
+}
+
+/* .carousel-control-prev:before {
+    content: "<";
+    color:black;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .carousel-control-next:before {
+    content: ">";
+    color: black;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  } */
+  .custom-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  .rounded-circle{
+    width: auto;
+    height: 100px;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+      background-color: black;
+  }
+  /* Tablate/Ipade Device */
+@media only screen and (max-width: 768px) {
+    .custom-slider {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
