@@ -1,5 +1,8 @@
 function setLocation() {
-  window.location.href = "pages/about.html";
+  window.location.href = "about.html";
+}
+function homepage() {
+  window.location.href = "index.html";
 }
 
 function submitFunction() {
