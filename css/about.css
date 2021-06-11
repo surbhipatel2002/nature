@@ -1,0 +1,39 @@
+.heading{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: black;
+}
+.red-star, .red_color{
+    color: red;
+}
+.blue-btn{
+    background-color: #2149a1;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 22px;
+    margin-bottom: 50px;
+}
+.business-logo{
+    height: 60px;
+}
+.nav-item .nav-link {
+    color: black !important;
+}   
+.bg-light{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.form-section{
+    background: #fafafa;
+    border-color: #eaeaea;
+    margin-bottom: 20px;
+}
+.form-section:focus{
+    background: #fafafa;
+    box-shadow: none;
+    border-color:black;
+}
+.red_border{
+    border-color: red !important;
+}
