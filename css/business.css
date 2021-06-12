@@ -4,6 +4,10 @@
 .nav-item .nav-link {
     color: black !important;
 }   
+.nav-item .nav-link:hover{
+    cursor: pointer;
+    color:#43ca83 !important;
+}
 .bg-light{
     padding-left: 100px;
     padding-right: 100px;
@@ -16,14 +20,13 @@
 }
 
 .first_section {
-    background-image: url('../images/ways-to-make-small-business-green.jpg');
+    background-image: url('../images/image.png');
     text-align: center;
     padding: 11%;
     background-size: 100% 100%;
 }
 .black-botton{
-    color:black ;
-    font-weight: bold;
+    color:#43ca83 !important ;
     background-color: white;
 
 }
@@ -112,7 +115,7 @@
     margin-right: 20px;
 }
 .btn-light{ 
-    color:#43ca83 ;
+    color:#43ca83 !important ;
 }
 .footer{
     background-color:#292929;
