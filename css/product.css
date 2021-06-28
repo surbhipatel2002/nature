@@ -1,0 +1,126 @@
+.business-logo{
+    height: 60px;
+}
+.nav-item .nav-link {
+    color: black !important;
+}   
+.nav-item .nav-link:hover{
+    cursor: pointer;
+    color:#43ca83 !important;
+}
+@media only screen and (max-width: 992px) {
+    .bg-light {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+.star{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.bg-light{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.images{
+    height: 68px;
+    width: 70px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.big-images{
+    height: 70%;
+}
+@media only screen and (max-width: 992px) {
+    .big-images{
+        height: 100%;
+        width: 100%;
+    }
+}
+.images-col-sm-2{
+   
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    margin-top: 50px;
+}
+.checked {
+    color: #3A5A29;
+}
+.padding-text{
+    padding: 5px;
+    color: black;
+    font-weight:600;
+}
+.padding-text:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #3A5A29;
+    
+    border-radius: 4px;
+}
+
+.btn-success{
+    
+    background-color: #3a5a2b;
+    border: #3a5a2b !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0px;
+}
+.btn-outline-dark{
+    margin-right: 15px;
+}
+.padding-row{
+    padding-top: 40px;
+}
+.slider-margin{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.text-col-sm-7{
+    padding-top: 85px;
+    font-weight: 400;
+ 
+}
+@media only screen and (max-width: 992px) {
+    .text-col-sm-7{
+       padding-top: 25px;
+    }
+}
+.slider-margin .nav-item{
+    padding-right: 25px;
+}
+.nav-tabs{
+    margin-bottom: 15px;
+    border-bottom: 0px;
+}
+.nav-item .padding-text.active{
+    border-bottom: 1px solid;
+
+}
+
+.tab-content{
+    padding-bottom: 20px;
+}
+.text-green-color{
+    padding-top: 10px;
+    color:#3a5a2b ;
+    padding-bottom: 15px;
+}
+.color-black-h1{
+    color: black;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.btn-outline-dark{
+    color: black;
+    padding-right: 30px;
+    padding-left:30px ;
+    border-radius: 0px;
+   
+}
+.reviews{
+   background-color:#3a5a2b;
+   color: white;
+}
