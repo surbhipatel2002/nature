@@ -22,6 +22,13 @@
 }   
 .nav-item .nav-link:hover{
     cursor: pointer;
+    color:#43ca83 !important;
+}
+@media only screen and (max-width: 992px) {
+    .bg-light {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
 }
 .bg-light{
     padding-left: 100px;

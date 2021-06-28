@@ -4,7 +4,9 @@ function setLocation() {
 function homepage() {
   window.location.href = "index.html";
 }
-
+function productpage(){
+  window.location.href = "product.html";
+}
 function submitFunction() {
   onkeyupFunction();
 }
