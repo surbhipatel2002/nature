@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="container-fluid padding-container">
+    <div class="container-fluid padding-container pl-0 pr-0">
         <nav class="section-layout navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
                 <img class="business-logo" onclick="homepage()" src="images/businesslogo.png" alt="">
@@ -45,17 +45,19 @@
         </nav>
         <div class="row padding-row">
             <div class="col-sm-2 images-col-sm-2">
-                <img class="images" src="images/images (1).jpg" alt=""><br>
-                <img class="images"
+
+                <img class="images " onclick="changeImage('first')" src="images/images(1).jpg" alt="">
+
+                <img class="images" onclick="changeImage('second')"
                     src="images/lantern-light-pendant-wall-combo-of-three-matching-lamp-with-original-imaex9msgu6dsshj.jpeg"
                     alt=""><br>
-                <img class="images" src="images/images.jpg" alt=""><br>
-                <img class="images"
+                <img class="images" onclick="changeImage('third')" src="images/images.jpg" alt=""><br>
+                <img class="images" onclick="changeImage('four')"
                     src="images/stripped-shade-wooden-table-lamp-by-the-light-house-stripped-shade-wooden-table-lamp-by-the-light-ho-k1jtnv.jpg"
                     alt=""><br>
             </div>
             <div class="col-sm-3">
-                <img class="big-images" src="images/pexels-photo-266688.jpeg" alt="">
+                <img id="myImage" class="big-images" src="images/pexels-photo-266688.jpeg" alt="">
             </div>
             <div class="col-sm-7 text-col-sm-7">
                 <div class="row mr-0 ml-0">
@@ -65,71 +67,117 @@
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
-                        <span class="reviews">(2 Reviews)</span>
+                        <a class="padding-text" onclick="review()">(2 Reviews)</a>
                     </div>
                 </div>
-                
-                
+
+
                 <div>
-                    <h1 class="color-black-h1">Skylofts Plug in Night Lamp Tower Design Red Night Lights for Bedroom Living Room Indoor Passage Light Night Lamp  (8, Red)</h1>
+                    <h1 class="color-black-h1">Skylofts Plug in Night Lamp Tower Design Red Night Lights for Bedroom
+                        Living Room Indoor Passage Light Night Lamp (8, Red)</h1>
                     <h6>Availability (In Stock)</h6>
                     <h1 class=" text-green-color">$455.99</h1>
                 </div>
-                
+
                 <div class="row slider-margin">
                     <!-- <div class="row"> -->
-                        <div class="col-sm-12">
-                            <ul class="nav nav-tabs">
-                                <li class="nav-item"><a class="padding-text active" data-toggle="tab"
-                                        href="#specifications">Specifications</a></li>
-                                <li class="nav-item"><a class="padding-text" data-toggle="tab" href="#about">About</a></li>
-                                <li class="nav-item"><a class="padding-text" data-toggle="tab" href="#reviews">Reviews</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-sm-12 pl-0">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="padding-text active" id="nav-specification" data-toggle="tab"
+                                    href="#specifications">Specifications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="padding-text" id="nav-about" data-toggle="tab" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="padding-text" id="nav-review" data-toggle="tab" href="#reviews">Reviews</a>
+                            </li>
+                        </ul>
+                    </div>
                     <!-- </div> -->
                     <!-- <div class="row"> -->
-                        <div class="col-sm-12">
-                            <div class="tab-content">
-                                <div id="specifications" class="tab-pane fade in active show">
-                                    
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <p>Sales Package</p>
-                                            <p>Model Number</p><br>
-                                            <p>Model Name</p><br>
-                                            <p>Assembly Required</p>
-                                            <p>Usage</p>
-                                        </div>
-                                        <div class="col-sm-8">
-                                           <p>1 Night Lamp</p>
-                                           <p>plug in Night Lamp Tower Design Red Night Lights for Bedroom Living Room Indoor Passage Light</p>
-                                           <p>Plug in Night Lamp Tower Design Red Night Lights for Bedroom Living Room Indoor Passage Light</p>
-                                           <p>No</p>
-                                           <p>Functional</p> 
-                                        </div>
+                    <div class="col-sm-12">
+                        <div class="tab-content">
+                            <div id="specifications" class="tab-pane fade in active show">
+
+                                <div class="row row-wrap">
+                                    <div class="col-sm-4 pl-0 pr-0">
+                                        <p>1. Sales Package</p>
+                                    </div>
+                                    <div class="col-sm-8 pl-0 pr-0">
+                                        <p>1 Night Lamp</p>
                                     </div>
                                 </div>
-                                <div id="about" class="tab-pane fade">
-                                    <p>
-                                        These night lamps are perfect for your bedroom living room or indoor
-                                        passage. Kids would love these stylish Night lights in their room. 
-                                        It adds to the beauty of the room and adds to the dÃ©cor of your room.
-                                    </p>
+                                <div class="row row-wrap">
+                                    <div class="col-sm-4 pl-0 pr-0">
+                                        <p>2. Model Number</p><br>
+                                    </div>
+                                    <div class="col-sm-8 pl-0 pr-0">
+                                        <p>plug in Night Lamp Tower Design Red Night Lights for Bedroom Living Room
+                                            Indoor Passage Light</p>
+                                    </div>
                                 </div>
-                                <div id="reviews" class="tab-pane fade">
-                                   <span class="fa fa-star checked"></span>
+                                <div class="row row-wrap">
+                                    <div class="col-sm-4 pl-0 pr-0">
+                                        <p>3. Model Name</p>
+                                    </div>
+                                    <div class="col-sm-8 pl-0 pr-0">
+                                        <p>Plug in Night Lamp Tower Design Red Night Lights for Bedroom Living Room
+                                            Indoor Passage Light</p>
+                                    </div>
+                                </div>
+                                <div class="row row-wrap">
+                                    <div class="col-sm-4 pl-0 pr-0">
+                                        <p>4. Assembly Required</p>
+                                    </div>
+                                    <div class="col-sm-8 pl-0 pr-0">
+                                        <p>No</p>
+                                    </div>
+                                </div>
+                                <div class="row row-wrap">
+                                    <div class="col-sm-4 pl-0 pr-0">
+                                        <p>5. Usage</p>
+                                    </div>
+                                    <div class="col-sm-8 pl-0 pr-0">
+                                        <p>Functional</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    <!-- </div> -->
+                            <div id="about" class="tab-pane fade">
+                                <p>
+                                    These night lamps are perfect for your bedroom living room or indoor
+                                    passage. Kids would love these stylish Night lights in their room.
+                                    It adds to the beauty of the room and adds to the dÃ©cor of your room.
+                                </p>
+                            </div>
+                            <div id="reviews" class="tab-pane fade">
+                                <button class="btn-review">4<i class="fa fa-star checked-star"></i></button>
+                                Good Choice
+                                <p>good quality thanks to flipkart</p>
 
-                    <div class="col-sm-12">
-                        <button type="button" class="btn btn-outline-dark">Qnt - 1 +</button>
-                        <button type="button" class="btn btn-success">Add to Cart</button>
+                                <button class="btn-review">5<i class="fa fa-star checked-star"></i></button>
+                                Good product
+                                <p>Good product and the delivery person behaviour is also very good.</p>
+                            </div>
+                        </div>
+
                     </div>
-                    
                 </div>
+                <!-- </div> -->
+
+                <div class="col-sm-12 pl-0">
+                    <button type="button" class="btn btn-outline-dark">Qnt - 1 +</button>
+                    <button type="button" class="btn btn-success">Add to Cart</button>
+                </div>
+
+
+
             </div>
         </div>
+        <footer class="footer">
+            <p class="footer-p">Copyright © 2021 Surabhi Patel</p>
+        </footer>
     </div>
+   
 </body>
