@@ -8,11 +8,12 @@
     color: red;
 }
 .blue-btn{
-    background-color: #2149a1;
     color: white;
     padding: 10px 40px;
     border-radius: 22px;
     margin-bottom: 50px;
+    background-color: #3a5a2b;
+    border: #3a5a2b !important;
 }
 .business-logo{
     height: 60px;
@@ -46,4 +47,14 @@
 }
 .red_border{
     border-color: red !important;
+}
+.footer{
+    background-color:#292929;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-p{
+    margin-bottom: 0px;
 }
