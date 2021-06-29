@@ -7,6 +7,9 @@ function homepage() {
 function productpage(){
   window.location.href = "product.html";
 }
+function pricingpage(){
+  window.location.href = "pricing.html";
+}
 function changeImage(data) {
   console.log(data)
   if(data=="first"){
