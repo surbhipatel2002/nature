@@ -1,0 +1,107 @@
+.business-logo{
+    height: 60px;
+}
+.nav-item .nav-link {
+    color: black !important;
+}   
+.nav-item .nav-link:hover{
+    cursor: pointer;
+    color:#43ca83 !important;
+}
+@media only screen and (max-width: 992px) {
+    .bg-light {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+.bg-light{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.heading-1{
+    color: hsl(322deg 40% 41%);
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 25px;
+}
+.first-card-basic{
+    color: hsl(359deg 78% 68%);
+    text-align: center;
+    padding-top: 20px;
+
+}
+.btn-success{
+    
+    background-color: #3a5a2b;
+    border: #3a5a2b !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.purchase-btn{
+    text-align: center;
+}
+.card-deck{
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 160px;
+    margin-right: 160px;
+   
+}
+@media only screen and (max-width: 992px) {
+    .card-deck{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.first-heading-card{
+    padding-top: 30px;
+}
+.first-section{
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: hsl(351deg 100% 96%);
+}
+.second-section{
+    border-radius: 25px;
+}
+.second-heading-2{
+    margin-top: 10px;
+}
+.second-card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.second-heading{
+    padding-top: 30px;
+}
+#grad1 {
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right,hsl(328deg 68% 55%), hsl(23deg 84% 63%));
+    color: white;
+}
+.first-radious{
+    border-radius: 25px;
+    margin-left: 50px;
+}
+@media only screen and (max-width: 992px) {
+    .first-radious{
+       margin-left: 0px;
+    }
+}
+.third-radious{
+    border-radius: 25px;
+}
+.footer{
+    background-color:#292929;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-p{
+    margin-bottom: 0px;
+}
